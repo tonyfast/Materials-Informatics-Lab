@@ -10,6 +10,9 @@ This repository will serve as a central resource for the course content in the M
 Informatics Laboratory session for the FLAMEL program at the Georgia Institute of Technology
 in the Fall term.
 
+There a lot of easter eggs in the posts with external links that have guided my direction
+in better understanding collaboration and Materials Data Science.
+
 ## About this Branch
 
 The ``gh-pages`` branch of a Github repository provides a web hosting service for its underlying content.
