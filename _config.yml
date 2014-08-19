@@ -9,6 +9,7 @@ baseurl: "/Materials-Informatics-Lab" # the subpath of your site, e.g. /blog/
 url: "http://tonyfast.com" # the base hostname & protocol for your site
 twitter_username: docfast
 github_username:  tonyfast
+disqus: tonyfast
 
 # Build settings
 markdown: kramdown

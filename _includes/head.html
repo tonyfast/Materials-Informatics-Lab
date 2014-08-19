@@ -8,4 +8,12 @@
 
     <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
     <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+    <link rel="stylesheet" href="{{ "/css/octicons/octicons.css" | prepend: site.baseurl}}">
+
+    <style>
+    /* CSS styling for octicons that are links */
+    a span.mega-octicon, span.octicon{
+      cursor: pointer; cursor: hand;
+    }
+    </style>
 </head>
