@@ -7,7 +7,7 @@ permalink: /about/
 ## About this Repository
 
 This repository will serve as a central resource for the course content in the Materials
-Informatics Laboratory session for the FLAMEL program at the Georgia Institute of Technology
+Informatics Laboratory session for the [FLAMEL](http://www.flamel.gatech.edu/) program at the Georgia Institute of Technology
 in the Fall term.
 
 There a lot of easter eggs in the posts with external links that have guided my direction
