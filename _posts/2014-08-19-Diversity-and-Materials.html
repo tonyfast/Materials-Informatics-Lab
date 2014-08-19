@@ -1,0 +1,94 @@
+---
+layout: post
+title:  "A Nebulous Scope of Materials Informatics"
+date:   2014-08-19 10:00:22
+categories: Lab1
+
+data:
+- type: slideshare
+  description: Early Case Studies in Materials Informatics
+  id: 27910614
+- type: slideshare
+  description: Predicting the Roles of the Materials Data Scientist in the Materials Genome Initiative
+  id: 33944674
+---
+# Materials Informatics
+
+Materials Informatics is a burgeoning amalgamation of materials science, data science,
+ electrical engineering, and modern web tools to solve grand materials science challenges.
+ Alongside side this hybrid the landscape of materials data is changing in an explosive manner.
+ The breadth of materials science research data generated to date is absolutely enormous, but really hard to find.
+ Data science focuses on discovering, leveraging, digesting, and sharing knowledge of patterns in information.
+
+{% assign pres=page.data[0] %}
+{% include slideshare.html data=pres %}
+
+*{{page.data[0].description}}*
+
+# Diversity of Materials Scinece
+
+Materials science may be one of the most intrinsically diverse fields in the physical sciences.  Often I find it
+hard to differentiate between what is and what is not materials science research; everything demands materials.
+This diversity in materials science is typically coralled together by the following categories:
+
+* **Material System** - What material system do you study? Metals? Organics? Composites? Ceramics?
+* **Length Scale** - Information can be generated across a continuum of spatial and temporal length scales, but only within a limited resolution.
+* **Physical Phenomena** - Individually researchers may explore the reduced impacts of structural properties like corrosion, fatigue, and strength or function properties that are magnetic and electronic.
+The phenomena of interest usually indicates whether a researcher is concerned in materials properties that propogated up (homogenization) or down (localization) in scale.
+* **Data Source** - There are experts at simulation and experts at microscopy.  We all have a skill and often that skill is either in physical experiments or computing.
+* **Data Generation, Ingestion, and Analysis** - One of the most diverse frontiers of materials science research are the data manipulations used to generate and explore materials data.
+
+> What happens when your interests become less bounded?
+
+## Data Science
+
+The foray of [data science](drewconway.com/zia/2013/3/26/the-data-science-venn-diagram) into the materials science space indicates cultural
+singularity in materials science.  Data science augments conventional research practices
+with so called "[hacking skills](#on-hacking-skills)" and "[machine learning](http://en.wikipedia.org/wiki/Machine_learning)".
+
+![Drew Conway's - Three Color Data Science Diagram](http://static.squarespace.com/static/5150aec6e4b0e340ec52710a/t/51525c33e4b0b3e0d10f77ab/1364352052403/Data_Science_VD.png?format=500w)
+
+*Drew Conways's visual description of data science.*
+
+Data sciences introduce practices that leverage existing human and machine accessible
+information to better inform traditional research practices.  Underlying trends in data exist, but under normal circumstances
+they may escape most researchers sensibilities.  [Advanced algorithms](http://scikit-learn.org/stable/tutorial/machine_learning_map/) and creative practices allow data scientists to find hidden patterns in data.
+
+![Advanced Algorithms](http://1.bp.blogspot.com/-ME24ePzpzIM/UQLWTwurfXI/AAAAAAAAANw/W3EETIroA80/s1600/drop_shadows_background.png)
+
+*A survey/cheat sheet for using a wide array of machine learning techniques in [SciKit Learn](http://scikit-learn.org/stable/).*
+
+### On "Hacking Skills"
+
+> For better or worse, data is a commodity traded electronically; therefore, in order to be in this market you need to speak hacker. This, however, does not require a background in computer science—in fact—many of the most impressive hackers I have met never took a single CS course. Being able to manipulate text files at the command-line, understanding vectorized operations, thinking algorithmically; these are the hacking skills that make for a successful data hacker.
+
+## Materials Research
+
+Materials science research is typically encapsulated as structure-property-processing relationships.
+
+![Structure-Property-Processing](http://www.che.neu.edu/images/amr-splash.jpg)
+
+* **structure** features are typically independent variables in materials data science.  Structure features may deterministically or statistically represent materials features (e.g. phase, optic, fraction, energy) in space or time.
+* **processing** are external conditions that affect the structure of the material in service.  Processing conditions effect loads, temperature, pressure, preparation, handling, etc.
+* **properties** are dependent on the material structure and its processing.
+Properties are measurable quantities that could qualify a materials structural, magnetic, or electronic performance.
+
+Structure-property-processing connections live and breath in service.  All external conditions have the potential to process a materials, change its structure, and ultimately its performance.
+
+## Materials Data Science
+
+{% assign pres=page.data[1] %}
+{% include slideshare.html data=pres %}
+
+*{{page.data[1].description}}*
+
+## Materials Informatics Projects
+
+* MINED
+* Aflow
+* Harvard Clean Energy Project
+* The Materials Project
+* Rajan Krishna
+* CHIMAD
+* Materials Genome Initiative
+* National Manufacturing Initiatives
